@@ -31,10 +31,10 @@
      <!--Dropdown-->
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <button onclick="location.href=''" class="btn btn-primary" type="button">
+         primary</button>
+          <button onclick="location.href='paginasecundaria.html'" class="btn btn-primary" type="button">
+         secondary</button>
         </div>
       </li>
       <li class="nav-item">
@@ -64,29 +64,6 @@
     <li class="breadcrumb-item"><a href="#">Data</li>
   </ol>
 </nav>
-<!--button-->
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mimodal">Danger</button>
-<div class="modal" id="mimodal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-<!--alert-->
-       <div class="alert alert-danger" role="alert">
-  This is a danger alert—check it out!
-      </div>
-  </div>
-</div>
-
-<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mimodal2">Warning</button>
-
-<div class="modal" id="mimodal2" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-
-       <div class="alert alert-warning" role="alert">
-  			This is a warning alert—check it out!
-      </div>
-  </div>
-</div>
 
 <!-- CAROUSEL -->
 
@@ -107,17 +84,17 @@
                     What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
                      -->
                      <picture>
-                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
-                      <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
-                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                      <source srcset="tattoogrande.jpg" media="(min-width: 100px)">
+                      <source srcset="tattoogrande.jpg" media="(min-width: 100px)">
+                       <source srcset="tattoogrande.jpg" media="(min-width: 100px)">
+                      <img srcset="tattoogrande.jpg" alt="responsive image" class="d-block img-fluid">
                     </picture>
 
                     <div class="carousel-caption">
                         <div>
                             <h2>Digital Craftsmanship</h2>
                             <p>We meticously build each site to get results</p>
-                            <span class="btn btn-sm btn-outline-secondary">Learn More</span>
+                            
                         </div>
                     </div>
                 </a>
@@ -126,17 +103,17 @@
             <div class="carousel-item">
                 <a href="https://bootstrapcreative.com/">
                      <picture>
-                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
-                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
-                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                      <source srcset="tattoogrande3.jpg" media="(min-width: 1400px)">
+                      <source srcset="tattoogrande3.jpg" media="(min-width: 769px)">
+                       <source srcset="tattoogrande3.jpg" media="(min-width: 577px)">
+                      <img srcset="tattoogrande3.jpg" alt="responsive image" class="d-block img-fluid">
                     </picture>
 
                     <div class="carousel-caption justify-content-center align-items-center">
                         <div>
                             <h2>Every project begins with a sketch</h2>
                             <p>We work as an extension of your business to explore solutions</p>
-                            <span class="btn btn-sm btn-outline-secondary">Our Process</span>
+                            
                         </div>
                     </div>
                 </a>
@@ -146,17 +123,16 @@
             <div class="carousel-item">
                 <a href="https://bootstrapcreative.com/">
                      <picture>
-                      <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
-                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
-                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                      <source srcset="tattoo.jpg" media="(min-width: 1400px)">
+                      <source srcset="tattoo.jpg" media="(min-width: 769px)">
+                       <source srcset="tattoo.jpg" media="(min-width: 577px)">
+                      <img srcset="tattoo.jpg" alt="responsive image" class="d-block img-fluid">
                     </picture>
 
                     <div class="carousel-caption justify-content-center align-items-center">
                         <div>
                             <h2>Performance Optimization</h2>
                             <p>We monitor and optimize your site's long-term performance</p>
-                            <span class="btn btn-sm btn-secondary">Learn How</span>
                         </div>
                     </div>
                 </a>
@@ -191,17 +167,6 @@
   </p>
 </div>
 
-<!-- CARD -->
-
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
 <div>
 <h1>Example heading <span class="badge badge-secondary">New</span></h1>
 <h2>Example heading <span class="badge badge-secondary">New</span></h2>
@@ -211,15 +176,17 @@
 <h6>Example heading <span class="badge badge-secondary">New</span></h6>
 </div>
 
-<!-- MEDIA -->
-<div class="media">
-  <img class="mr-3" src="..." alt="Generic placeholder image">
-  <div class="media-body">
-    <h5 class="mt-0">Media heading</h5>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
 </div>
-
 
 
 </body>
@@ -270,7 +237,8 @@
 <div class="widget no-box">
 <h5 class="widget-title">Get Started<span></span></h5>
 <p>Get access to your full Training and Marketing Suite.</p>
-<a class="btn" href="#." target="_blank">Register Now</a>
+<a class="btn" href="formulario.html" target="_blank">Register Now</a>
+<a class="btn" href="comentarios.html">Comentarios</a>
 </div>
 </div>
 
