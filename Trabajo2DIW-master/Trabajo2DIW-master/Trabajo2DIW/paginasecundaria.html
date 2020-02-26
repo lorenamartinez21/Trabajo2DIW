@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - LadyTattoo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<!--collapse-->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <!--Dropdown-->
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <button onclick="location.href='index.html'" class="btn btn-primary" type="button">
+         primary</button>
+          <button onclick="location.href=''" class="btn btn-primary" type="button">
+         secondary</button>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- BREADCRUMB -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" ><a href="index.html">Página Principal</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Página2</li>
+    <li class="breadcrumb-item"><a href="comentarios.html">Comentarios</a></li>
+    <li class="breadcrumb-item"><a href="formulario.html">Formulario</a></li>
+  </ol>
+</nav>
+
+<!--btn-group-->
+<div>
+  <div class="btn-group float-right align-center mr-5" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary" a href=""><</button>
+  <button type="button" class="btn btn-secondary">-</button>
+  <button type="button" class="btn btn-secondary">></button>
+  </div><br><br><br><br>
+  
+  <!--pagination-->
+  <div>
+  <div class="float-right align-center mr-5">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+    </ul>
+  </nav>
+  </div>
+</div>
+
+<!-- CARD -->
+<div class="container">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="tatuador.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">!Álvaro Manso!</h5>
+    <p class="card-text">¿Quieres conocer a nuestro tatuador más famoso?</p>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    ¡Contacta con el tatuador!
+  </button>
+<!--collapse-->
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Tlf: 645321976<br>
+        Email: alvaro@gmail.com
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+  
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title">COMPANY NAME<span></span></h5>
+<p>About the company, little discription will goes here.. </p>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<div class="thumb-content"><a href="#.">Get Started</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Top Leaders</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Success Stories</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Event/Tickets</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">News</a></div>  
+</li>
+<li>
+<div class="thumb-content"><a href="#.">Lifestyle</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a href="#.">About</a></div> 
+</li>
+</ul>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title">Get Started<span></span></h5>
+<p>Get access to your full Training and Marketing Suite.</p>
+<a class="btn" href="formulario.html">Register Now</a>
+<a class="btn" href="comentarios.html">Comentarios</a>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-3">
+
+<div class="widget no-box">
+<h5 class="widget-title">Contact Us<span></span></h5>
+
+<p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+<ul class="social-footer2">
+<li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img alt="youtube" width="30" height="30" src=""></a></li>
+<li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src=""></a></li>
+<li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src=""></a></li>
+<li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src=""></a></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+  
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Copyright Company Name © 2016. All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</html>
