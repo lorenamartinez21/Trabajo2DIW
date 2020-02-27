@@ -114,3 +114,33 @@ anchors are inline so you need ot make them block to go full width
   height: 250px;
   overflow: auto;
 }
+
+.footer{
+	margin-top:10em;
+}
+
+.container{
+	align-content: right;
+	float: right;
+}
+
+.pagination{
+	align-items: right;
+	margin-left: 435px;
+	margin-top: 78px;
+}
+
+.btn-group{
+	
+	margin-left: 865px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.carousel{
+	margin-bottom: 100px;
+	height: 100px;
+	width: 200px;
+	margin-left: 820px;
+	margin-top: 0px;
+}
